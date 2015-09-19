@@ -1,0 +1,33 @@
+{
+  "name": "lightning-vega",
+  "version": "0.0.0",
+  "dependencies": {
+    "lightning-client-utils": "^0.6.3",
+    "lightning-visualization": "^0.1.0",
+    "lodash": "^3.8.0",
+    "brfs": "^1.4.0",
+    "vega": "^2.2.5",
+    "vega-lite": "^0.7.15"
+  },
+  "browserify-shim": {},
+  "keywords": [
+    "lightning-visualization"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "browserify-shim": "^3.8.9",
+    "browserify-versionify": "^1.0.4",
+    "jstransform": "^11.0.2",
+    "through": "^2.3.8"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "lightning": {
+    "name": "lightning-vega"
+  }
+}
