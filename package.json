@@ -2,12 +2,12 @@
   "name": "lightning-vega",
   "version": "0.0.0",
   "dependencies": {
+    "brfs": "^1.4.0",
+    "d3.layout.cloud": "^1.1.1",
     "lightning-client-utils": "^0.6.3",
     "lightning-visualization": "^0.1.0",
     "lodash": "^3.8.0",
-    "brfs": "^1.4.0",
     "vega": "^2.2.5",
-    "vega-lite": "^0.7.15"
   },
   "browserify-shim": {},
   "keywords": [

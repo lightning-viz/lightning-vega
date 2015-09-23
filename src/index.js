@@ -2,7 +2,7 @@
 
 var LightningVisualization = require('lightning-visualization');
 var _ = require('lodash');
-var vegalite = require('vega-lite');
+var vega = require('vega');
 
 /*
  * Extend the base visualization object
@@ -23,13 +23,16 @@ var Visualization = LightningVisualization.extend({
     },
 
     render: function() {
+        var self = this;
+        vega.parse.spec(this.data, function(chart) {
+            var vis = chart({el: self.el, renderer: 'svg'});
+            vis.update();
+        });
 
         // render the visualization
-
     },
 
     formatData: function(data) {
-        console.log(data)
         return data;
     },
 
