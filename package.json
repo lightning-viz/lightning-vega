@@ -6,10 +6,8 @@
     "d3.layout.cloud": "^1.1.1",
     "lightning-client-utils": "^0.6.3",
     "lightning-visualization": "^0.1.0",
-    "lodash": "^3.8.0",
-    "vega": "^2.2.5"
+    "vega-browserify": "^2.2.8"
   },
-  "browserify-shim": {},
   "keywords": [
     "lightning-visualization"
   ],

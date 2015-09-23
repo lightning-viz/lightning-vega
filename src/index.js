@@ -1,8 +1,7 @@
 'use strict';
 
 var LightningVisualization = require('lightning-visualization');
-var _ = require('lodash');
-var vega = require('vega');
+var vega = require('vega-browserify');
 
 /*
  * Extend the base visualization object
